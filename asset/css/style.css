@@ -1,0 +1,287 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100vh;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #2b2e43;
+}
+
+nav {
+	height: 80px;
+	width: 100%;
+}
+
+label.portofolio {
+	color: #fff;
+	font-size: 30px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: 600;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0px 5px;
+}
+
+nav ul li a {
+	color: #fff;
+	padding: 7px 13px;
+	border-radius: 3px;
+	font-size: 17px;
+}
+
+a.aktif,
+a:hover {
+	background-color: #ffcc99;
+	transition: 0.8s;
+}
+
+.containercontent {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.fotoava {
+	width: 200px;
+	border-radius: 15px;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.kolomcontent {
+	padding: 30px 400px;
+}
+
+h3 {
+	color: #fff;
+	font-weight: 500;
+}
+
+h4 {
+	color: #fff;
+	font-weight: 300;
+}
+
+.aboutme {
+	padding-top: 15px;
+}
+
+.kolomcontent h1 {
+	font-size: 40px;
+	color: #ffcc99;
+}
+
+#galery {
+	padding-top: 100px;
+}
+
+.containergalery {
+	display: flex;
+	justify-content: center;
+}
+
+.containergalery h1 {
+	font-size: 40px;
+	color: #ffcc99;
+}
+
+.galery {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.kartu {
+	background: #ffcc99;
+	width: 300px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+.imgbox {
+	background-color: #2b2e43;
+	height: 300px;
+	margin-bottom: 15px;
+	background-size: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.karya-1 {
+	background-image: url("img/gerin1.jpg");
+}
+
+.karya-2 {
+	background-image: url("img/hennoch1.jpg");
+}
+
+.karya-3 {
+	background-image: url("img/merdeka-snap.jpg");
+}
+
+.kartu h3 {
+	color: #2b2e43;
+	font-weight: 500;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+#contact {
+	padding-top: 100px;
+}
+
+.containercontact {
+	display: flex;
+	justify-content: center;
+}
+
+.containercontact h1 {
+	font-size: 40px;
+	color: #ffcc99;
+}
+
+.containercontact h4 {
+	padding-bottom: 200px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 70%;
+	padding: 30px 90px 90px 90px;
+	border: 6px solid rgba(0, 0, 0, 0.6);
+	box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.6);
+	border-radius: 50px;
+	position: relative;
+}
+
+.card h2 {
+	color: #fff;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.card .row {
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid: auto / auto auto;
+	grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+	grid-gap: 30px;
+}
+
+.card .row .col {
+	position: relative;
+	width: 100%;
+	margin: 30px 20px 40px 0;
+	transition: 0.5s;
+}
+
+.card .row .form-group {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	color: #ffffff;
+}
+
+.card .row .form-group input,
+.card .row .form-group textarea {
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	background: transparent;
+	outline: none;
+	font-size: 24px;
+	padding: 10px 0 10px 20px;
+	border: 5px solid rgba(0, 0, 0, 0.3);
+	box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+	border-radius: 50px;
+}
+
+.card .row .form-group label {
+	line-height: 40px;
+	color: #ffffff;
+	font-size: 24px;
+	margin: 0 0 0 30px;
+	display: block;
+	pointer-events: none;
+}
+
+.row .col:nth-child(6) {
+	margin-top: 64px;
+}
+
+.card .row .form-group input:focus,
+.card .row .form-group textarea:focus {
+	border: 5px solid #ffffff;
+	transition: all 0.5s;
+}
+
+.card .row input[type="submit"] {
+	border: 5px solid rgba(0, 0, 0, 0.3);
+	box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	height: 100%;
+	width: 50%;
+	cursor: pointer;
+	outline: none;
+	background: transparent;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 40px;
+	font-size: 24px;
+	font-weight: 700;
+	border-radius: 45px;
+	transition: all 0.4s;
+}
+
+.card .row input[type="submit"]:hover {
+	border: 5px solid rgba(255, 255, 255, 1);
+	color: #ffffff;
+	transition: all 0.4s;
+}
+
+@media screen and (max-width: 900px) {
+	.card .row {
+		grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
+	}
+
+	.card {
+		padding: 20px;
+	}
+
+	.card h2 {
+		font-size: 34px;
+	}
+
+	.card .row input[type="submit"] {
+		width: 100%;
+	}
+}
